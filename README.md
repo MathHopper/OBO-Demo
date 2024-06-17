@@ -1,3 +1,27 @@
+## Using this demo
+
+This React.js web app demo incorpoating LangChain and CrewAI is intended to be a proof on concept for Object-Based Orchestration. The dataset is a database of all Chinese vessels which crossed into Taiwanese waters from the start of the year until mid-May. The manager-agent structure and tools are also used, which is provides the basic architecture on greater iterations of this project. This project was done quickly and some features need more improvement, particularly the coordinate extraction from the LLM response. Generally speaking, there are almost no limitations to the phrasing of user questions, but for best preformance, please use the provided prompts.
+
+Provided below are some sample questions to best display the ability of the app:
+
+
+How many vessels are in the database?
+
+Which vessel MMSI spent the most combined time fishing?
+
+When did vessel MMSI 412452223 enter Taiwanese waters?
+
+What days is vessel MMSI 412452223 listed in the database?
+
+Where was vessel MMSI 412452223 last seen?
+
+How far is that from the coast of Taiwan?
+
+Was there any other vessel listed with the coordinates (26.0, 122.4)?
+
+Display the last 24 history of two of the vessels. //This will be the last command, since the paths won't disappear
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

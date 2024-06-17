@@ -6,8 +6,75 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/**Removes error page**/
+iframe
+{
+    display: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.map{
+  position:relative;
+  height:100vh;
+  width: 100vw;
+  z-index:0;
+}
+.interface{
+  position:absolute;
+  display:block;
+  top:3vh;
+  width:30vw;
+  height:11vh;
+  z-index:1;
+  margin-left: 0vw;
+}
+.nestor-logo{
+  position:absolute;
+  top:3vh;
+  width:20vw;
+  height:11vh;
+  z-index:1;
+  margin-left: 0vw;
+  padding:2vw;
+  font-size:2vw;
+  color:black;
+  opacity:1;
+  background-color: white;
+  backdrop-filter: blur(100px);
+}
+.question-box{
+  width:20.5vw;
+  height:5vh;
+  font-family: system-ui;
+  font-size:1.2vw;
+  color:white;
+  margin-top:25vh;
+  margin-left:2vw;
+  padding:10px;
+  opacity:0.7;
+  border-radius:0px;
+  border:none;
+  background-color: black;
+}
+button{
+  position: relative;
+  top:0px;
+  height:7.5vh;
+  font-family: system-ui;
+  font-size:1.2vw;
+  padding:10px;
+  opacity:0.7;
+  border-radius:0px;
+  border:none;
+  color:white;
+  background-color: black;
+  cursor:pointer;
+}
+.answer-container{
+  width:20.5vw;
+  padding:2vw;
+  background-color: white;
+  opacity:1;
 }
