@@ -127,9 +127,11 @@ export default function App() {
       mapping();
   });
   useEffect(() => {
-    if(displayHistory != 0){
+    if(displayHistory == 1){
       generate();
-    }  
+    }  else{
+
+    }
   },[displayHistory])
 
   return (
